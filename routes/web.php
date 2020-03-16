@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('cds');
-});
+use App\Http\Controllers\CdsListController;
+
+Route::get('/cds', 'CdsListController@getCdFromArray');
