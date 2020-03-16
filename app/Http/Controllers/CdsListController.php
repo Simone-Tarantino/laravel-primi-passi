@@ -27,6 +27,24 @@ class CdsListController extends Controller
                 'Steve Gadd band',
                 'Brave new World',
                 'One more car, one more rider'
+            ],
+            'artists' =>
+            [
+                'Bon Jovi',
+                'Queen',
+                'Sting',
+                'Steve Gadd Band',
+                'Iron Maiden',
+                'Eric Clapton'
+            ],
+            'releaseDates' =>
+            [
+                1988,
+                1992,
+                1993,
+                2018,
+                2000,
+                2002
             ]
         ];
         return view('cds', $cdsListInfo);

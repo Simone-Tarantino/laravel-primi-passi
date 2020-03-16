@@ -22,6 +22,9 @@
                 @foreach ($titles as $title)
                     <h3>{{$title}}</h3>
                 @endforeach
+                @foreach ($artists as $artist)
+                    <small>{{$artist}}</small>
+                @endforeach
             </div>
         </main>
     </div>
