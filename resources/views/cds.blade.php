@@ -14,10 +14,16 @@
         <header>
             <img src="http://pluspng.com/img-png/spotify-logo-png-open-2000.png" alt="">
         </header>
-
-        @foreach ($covers as $cover)
-            <img src="{{$cover}}" alt="">
-        @endforeach
+        <main>
+            <div class="cd-container">
+                @foreach ($covers as $cover)
+                    <img src="{{$cover}}" alt="">
+                @endforeach
+                @foreach ($titles as $title)
+                    <h3>{{$title}}</h3>
+                @endforeach
+            </div>
+        </main>
     </div>
 </body>
 
