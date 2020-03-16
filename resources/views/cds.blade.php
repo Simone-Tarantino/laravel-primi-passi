@@ -25,6 +25,9 @@
                 @foreach ($artists as $artist)
                     <small>{{$artist}}</small>
                 @endforeach
+                @foreach ($releaseDates as $date)
+                    <strong>{{$date}}</strong>
+                @endforeach
             </div>
         </main>
     </div>
