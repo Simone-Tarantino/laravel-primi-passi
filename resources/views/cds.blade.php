@@ -14,20 +14,10 @@
         <header>
             <img src="http://pluspng.com/img-png/spotify-logo-png-open-2000.png" alt="">
         </header>
+        
         <main>
             <div class="cd-container">
-                @foreach ($covers as $cover)
-                    <img src="{{$cover}}" alt="">
-                @endforeach
-                @foreach ($titles as $title)
-                    <h3>{{$title}}</h3>
-                @endforeach
-                @foreach ($artists as $artist)
-                    <small>{{$artist}}</small>
-                @endforeach
-                @foreach ($releaseDates as $date)
-                    <strong>{{$date}}</strong>
-                @endforeach
+            
             </div>
         </main>
     </div>
